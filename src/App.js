@@ -2,7 +2,7 @@ function App() {
   return (
     <div className="App">
       {" "}
-      <p>Hello worldgit</p>
+      <p>Hello world </p>
     </div>
   );
 }
