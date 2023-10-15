@@ -1,5 +1,6 @@
 import Input from "./input";
 import Button from "./button";
+
 function From() {
   return (
     <>
@@ -7,6 +8,7 @@ function From() {
         <Input />
         <br />
         <Button />
+        <img src="im.jpeg" />
       </div>
     </>
   );
