@@ -1,21 +1,20 @@
 import Input from "./input";
 import Button from "./button";
-
+function Next() {
+  return <h1>Hello world</h1>;
+}
+function Back() {
+  return <h1>Hello world</h1>;
+}
 function From() {
-  const blue = {
-    color: "blue",
-  };
-  const red = {
-    color: "red",
-  };
-  let classes = 2 == 2 ? { red } : { blue };
+  let classes = "ezekiel" == "ezekiel" ? <Next /> : <Back />;
   return (
     <>
       <div>
         <Input />
         <br />
         <Button />
-        <p style={classes}>button</p>
+        <p>{classes}</p>
       </div>
     </>
   );
