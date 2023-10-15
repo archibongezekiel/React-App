@@ -1,7 +1,8 @@
 import Input from "./input";
 import Button from "./button";
 
-function From() {
+function From(p) {
+  const r = p.w;
   return (
     <>
       <div>
@@ -9,7 +10,7 @@ function From() {
         <br />
         <Button />
         <p>Hello</p>
-        <p>welcome</p>
+        <p>{r === "ezekiel" ? <h1>Yes</h1> : <h5>no</h5>}</p>
       </div>
     </>
   );
