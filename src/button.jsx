@@ -2,7 +2,11 @@ import { Component } from "react";
 
 class Deploy extends Component {
   render() {
-    return <h1>Hello wrold</h1>;
+    return (
+      <>
+        <button type="button">Submit</button>
+      </>
+    );
   }
 }
 export default Deploy;
