@@ -1,21 +1,21 @@
 import Input from "./input";
 import Button from "./button";
 
-function From(p) {
-  //   const red = {
-  //     color: "red",
-  //   };
-  const blue = {
-    color: "blue",
+function From() {
+  const red = {
+    color: "red",
   };
-  //   const c = 20 === 20 ? blue : red;
+  const blue = {
+    color: "green",
+  };
+  const c = 20 ? blue.color : red.color;
   return (
     <>
       <div>
         <Input />
         <br />
         <Button />
-        <p style={blue}>Hello</p>
+        <p style={c}>Hello</p>
         <p> </p>
       </div>
     </>
