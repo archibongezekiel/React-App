@@ -1,4 +1,4 @@
-import Header from "../../learning-react/src/header";
+import Header from "../../learning-react/src/header.js";
 function App() {
   return (
     <div className="App">
