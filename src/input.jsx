@@ -3,6 +3,7 @@ function Input() {
     outline: "none",
     border: "none",
     fontSize: "17px",
+    borderBottom: "1px solid red",
   };
   return (
     <>

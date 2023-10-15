@@ -4,8 +4,9 @@ function Button() {
     border: "none",
     fontSize: "17px",
     color: "blue",
+    background: "red",
   };
-  return <button>Submit</button>;
+  return <button style={style}> Submit</button>;
 }
 
 export default Button;
