@@ -1,13 +1,8 @@
-import { Button } from "./button";
-function Name() {
+function Input() {
   return (
     <>
-      <div>
-        <input type="text" name="" id="" />
-        <br />
-        <Button />
-      </div>
+      <input type="text" name="" id="" />
     </>
   );
 }
-export default Name;
+export default Input;
