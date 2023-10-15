@@ -17,7 +17,7 @@ function From() {
         <p>Hello</p>
         <p>
           {" "}
-          "ezekiel" === "ezekiel" ? <Next /> : <Back />;
+       {    "ezekiel" === "ezekiel" ? <Next /> : <Back />;}
         </p>
       </div>
     </>
