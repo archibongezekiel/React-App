@@ -1,4 +1,5 @@
 function Input() {
+  const list = ["Ezekie", "Bassey", "Archibong"];
   const style = {
     outline: "none",
     border: "none",
@@ -8,6 +9,11 @@ function Input() {
   return (
     <>
       <input type="text" name="" id="" style={style} />
+      <ul>
+        {list.map((tag) => (
+          <li>{tag}</li>
+        ))}
+      </ul>
     </>
   );
 }
