@@ -10,7 +10,7 @@ function Button() {
     background: "red",
   };
   return (
-    <button style={style} onAuxClick={handle}>
+    <button style={style} onClick={handle}>
       {" "}
       Submit
     </button>
