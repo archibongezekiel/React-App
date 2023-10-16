@@ -1,3 +1,6 @@
+function handle() {
+  alert("God did");
+}
 function Button() {
   const style = {
     outline: "none",
@@ -6,7 +9,12 @@ function Button() {
     color: "blue",
     background: "red",
   };
-  return <button style={style}> Submit</button>;
+  return (
+    <button style={style} onAuxClick={handle}>
+      {" "}
+      Submit
+    </button>
+  );
 }
 
 export default Button;
