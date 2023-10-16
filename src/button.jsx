@@ -1,6 +1,6 @@
-function handle() {
+const handle = () => {
   alert("God did");
-}
+};
 function Button() {
   const style = {
     outline: "none",
