@@ -11,7 +11,7 @@ function Input() {
       <input type="text" name="" id="" style={style} />
       <ul>
         {list.map((tag) => (
-          <li>{tag}</li>
+          <li key={tag}>{tag}</li>
         ))}
       </ul>
     </>
