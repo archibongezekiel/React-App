@@ -15,11 +15,12 @@ function Button() {
 
   return (
     <>
+      {" "}
+      <p>{count}</p>
       <button style={style} onClick={handle}>
         {" "}
         Submit
       </button>
-      <p>{count}</p>
     </>
   );
 }
