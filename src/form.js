@@ -1,12 +1,17 @@
 // import Input from "./input";
 import Button from "./button";
-const buttonMap = [{ id: 1 }, { id: 1 }, { id: 1 }, { id: 1 }];
-let mapU = buttonMap.map((e) => <Button key={e.id} />);
+
 function From() {
+  const buttonMap = [{ id: 1 }, { id: 1 }, { id: 1 }, { id: 1 }];
+  const handleDelete = () => alert("working");
   return (
     <>
       <div>
-        <div>{mapU}</div>
+        <div>
+          {buttonMap.map((e) => (
+            <Button key={e.id} OnDelete={handleDelete} />
+          ))}
+        </div>
       </div>
     </>
   );

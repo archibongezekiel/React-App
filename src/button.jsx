@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Button() {
+function Button(props) {
   const [count, keepCount] = useState(0);
   const handle = () => {
     keepCount(count + 1);
@@ -28,7 +28,9 @@ function Button() {
         {" "}
         Submit
       </button>
-      <button style={style1}>Delete</button>
+      <button style={style1} onClick={props.OnDelete}>
+        Delete
+      </button>
     </>
   );
 }
