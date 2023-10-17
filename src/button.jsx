@@ -28,7 +28,7 @@ function Button(props) {
         {" "}
         Submit
       </button>
-      <button style={style1} onClick={props.OnDelete}>
+      <button style={style1} onClick={() => props.OnDelete(props.id)}>
         Delete
       </button>
     </>

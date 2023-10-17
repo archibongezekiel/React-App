@@ -3,7 +3,7 @@ import Button from "./button";
 
 function From() {
   const buttonMap = [{ id: 1 }, { id: 1 }, { id: 1 }, { id: 1 }];
-  const handleDelete = () => alert("working");
+  const handleDelete = (e) => alert("working", e);
   return (
     <>
       <div>
