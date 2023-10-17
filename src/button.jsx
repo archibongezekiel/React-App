@@ -9,7 +9,14 @@ function Button() {
     outline: "none",
     border: "none",
     fontSize: "17px",
-    color: "blue",
+    color: "white",
+    background: "green",
+  };
+  const style1 = {
+    outline: "none",
+    border: "none",
+    fontSize: "17px",
+    color: "white",
     background: "red",
   };
 
@@ -21,6 +28,7 @@ function Button() {
         {" "}
         Submit
       </button>
+      <button style={style1}>Delete</button>
     </>
   );
 }
